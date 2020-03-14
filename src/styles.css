@@ -1,0 +1,117 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 14px;
+    background-color: #fffef8;
+    line-height: 1.4;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    background-image: linear-gradient(to bottom, #fffef8, #fff9b1);
+}
+
+header {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.spacer {
+    flex-basis: 380px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0 none;
+}
+
+.logo>img {
+    width: 280px
+}
+
+.top-section{
+    display: flex;
+}
+
+.top-left{
+    flex-basis: 380px;
+}
+
+.top-right{
+    flex-basis: 60%;
+}
+
+ul.company-highs>li {
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+h3.award-desc {
+    margin-bottom: 10px;
+}
+
+.product-section {
+    padding: 20px 0;
+    border-bottom: 2px solid #b9453e;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.product-images {
+    width: 800px;
+    margin: 0 auto;
+}
+
+p.product-category {
+    text-align: center;
+}
+
+.product-category>span {
+    display: inline-block;
+    padding: 10px;
+}
+
+.product-segments {
+    padding: 20px;
+}
+
+h3.ps-head {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.product-list>a {
+    display: inline-block;
+    padding: 0 10px;
+    color: #222;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #ec3237;
+}
+
+.footwrap {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.foot-item {
+    padding: 30px;
+    color: #fff;
+}
+
+.foot-item>a {
+    color: #fff;
+    text-decoration: none;
+}
